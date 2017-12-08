@@ -21,7 +21,11 @@
 </div><!-- /.main-wrapper -->
 <footer>JavaScript Samples</footer>
 <script>
+  //()内部に指定されたid要素を丸ごと取得できる
   console.log(document.getElementById("choice"));
+
+  //取得した要素のコンテンツを書き換える
+  document.getElementById("choice").textContent = new Date();
 </script>
 </body>
 </html>
