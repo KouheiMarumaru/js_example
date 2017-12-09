@@ -21,7 +21,11 @@
 </div><!-- /.main-wrapper -->
 <footer>JavaScript Samples</footer>
 <script>
-  console.log(window.confirm("gamestart! 準備いい？"));
+  if (window.confirm("gamestart! 準備いい？")) {
+    console.log("開始します");
+  } else{
+    console.log("終了します");
+  }
 </script>
 </body>
 </html>
